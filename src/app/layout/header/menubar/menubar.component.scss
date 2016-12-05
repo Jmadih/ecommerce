@@ -1,0 +1,26 @@
+$break-small: 676px;
+$break-large: 1200px;
+$menu-size: 1000px;
+
+.btn{
+  width: 150px;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    font-size: 10px;
+  }
+}
+
+.banner{
+  margin-left: auto;
+  margin-right: auto;
+  width: $menu-size;
+  @media screen and (max-width: $break-small) {
+    width: 90%;
+  }
+}
+
+.menu{
+  margin-left: auto;
+  margin-right: auto;
+  width: $menu-size;
+}

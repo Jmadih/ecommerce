@@ -1,0 +1,25 @@
+<md-card class="bag">
+  <div class="baglist">
+    <div *ngIf="bag.length == 0"><h1>Your bag is empty</h1></div>
+    <div  *ngIf="bag.length != 0">
+      <md-card class="productCard">
+        <md-list >
+          <h3 md-subheader>List of books</h3>
+          <md-list-item *ngFor="let item of bag">
+            <img md-line class="cover" src="{{item.cover}}" alt="...">
+            <h3 md-line> {{item.title}} </h3>
+            <button class="incr"(click)="remove(item)"><b style="color: brown">-</b></button>
+            <h4>{{item.quantity}}</h4>
+            <button  class="incr"(click)="add(item)"><b style="color: brown">+</b></button>
+            <span md-line style="color: deeppink">Price : {{item.price * item.quantity}} $</span>
+          </md-list-item>
+        </md-list>
+      </md-card>
+      <md-card>
+        Total : <s>{{totalPrice}} $</s><br>
+        Total after promo : <b style="color: deeppink">{{priceAfterPromo}} $</b><br><br>
+        <button md-button md-raised-button color="primary" (click)="buy()">Buy</button>
+      </md-card>
+    </div>
+  </div>
+</md-card>

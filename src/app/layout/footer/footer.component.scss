@@ -1,0 +1,32 @@
+$break-small: 676px;
+$break-large: 1200px;
+
+
+footer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 80px;
+  background-color: steelblue ;
+  border-radius : 8px;
+  color: white;
+  font-family: "Agency FB";
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin-left: 29%;
+}
+
+li {
+  float: left;
+  margin: 35px;
+  @media screen and (max-width: $break-small) {
+    margin: 15px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+<div class="parentCards">
+  <div class="cards">
+    <div *ngFor="let book of books">
+      <md-card>
+        <img class="cover" md-card-image [src]="book.cover">
+        <md-card-subtitle>{{book.title}}</md-card-subtitle>
+        <md-card-content>
+          Price :  <b>{{book.price}}$</b>
+        </md-card-content>
+        <md-card-actions>
+          <button md-button color="primary" (click)="addToBag(book)">Add to my bag</button>
+        </md-card-actions>
+      </md-card>
+      <br/>
+    </div>
+  </div>
+</div>
