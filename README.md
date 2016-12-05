@@ -13,7 +13,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `npm start` for a node server. It will be published in http://localhost:9000.
+Run `npm start` for the node server that contains REST services. It will be published in `http://localhost:9000`.
 
 
 ## Code scaffolding
