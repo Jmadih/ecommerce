@@ -1,5 +1,13 @@
 # Ecommerce
 
+Littre library commerce with ng2 and nodejs
+
+It was once a collection of five books about the history of a formidable hero named Henri Potier. All the children of the world found the stories of this fantastic adolescent. The editor of this collection, in an immense burst of generosity (but also to boost his sales ;) ), decided to put in place commercial offers as random as Ron Weasley.
+
+The publisher asks us to develop an ecommerce website with two interfaces. The first one allows you to choose the books you want to buy (look at home). The second recapitulates the basket (The yellow one ;) ), where will be applied the best commercial offer possible.
+
+:fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire :fire
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.18.
 
 ## Development server
@@ -28,11 +36,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# ecommerce
-Littre library commerce with ng2 and nodejs
 
-It was once a collection of five books about the history of a formidable hero named Henri Potier. All the children of the world found the stories of this fantastic adolescent. The editor of this collection, in an immense burst of generosity (but also to boost his sales ;) ), decided to put in place commercial offers as random as Ron Weasley.
-
-The publisher asks us to develop an ecommerce website with two interfaces. The first one allows you to choose the books you want to buy (look at home). The second recapitulates the basket (The yellow one ;) ), where will be applied the best commercial offer possible.
->>>>>>> 8b80b9509506454ac698270083ec9d4a0b7a5dc2
