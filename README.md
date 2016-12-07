@@ -1,6 +1,6 @@
 # Ecommerce
 
-Littre library commerce with ng2 and nodejs
+Little library commerce developped with ng2 and nodejs
 
 It was once a collection of five books about the history of a formidable hero named Henri Potier. All the children of the world found the stories of this fantastic adolescent. The editor of this collection, in an immense burst of generosity (but also to boost his sales ;) ), decided to put in place commercial offers as random as Ron Weasley.
 
